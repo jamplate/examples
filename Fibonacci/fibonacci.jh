@@ -1,0 +1,19 @@
+#if $p == 0
+    #declare $r 0
+#elif $p == 1
+    #declare $r 1
+#else
+    #for $ort [$rt]
+        #declare $p $p - 1
+        #include __PATH__
+        #declare $rt $r
+
+        #declare $p $p - 1
+        #include __PATH__
+        #declare $rt $rt + $r
+
+        #declare $p $p + 2
+        #declare $r $rt
+        #declare $rt $ort
+    #endfor
+#endif

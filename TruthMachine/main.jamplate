@@ -1,0 +1,12 @@
+//This example is an implementation of the truth machine. This implementation
+//will take the input as an argument when executing the program and print the
+//answer to the console.
+#if $input == 0
+    #message 0
+#elif $input == 1
+    #while true
+        #message 1
+    #endwhile
+#else
+    #error 'Invalid input: ' $input
+#endif

@@ -1,0 +1,11 @@
+//This example will take an input as an argument and print the Factorial of it
+//to the console.
+#declare $p $input - 1
+#declare $r $input
+
+#while $p > 0
+    #declare $r $r * $p
+    #declare $p $p - 1
+#endwhile
+
+#message $r

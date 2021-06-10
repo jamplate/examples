@@ -1,0 +1,27 @@
+//This example is an implementation of the 99 bottles of beer. This
+//implementation will print the song to the console.
+#declare $i 99
+#declare $noun 'bottles'
+
+#while $i > 0
+    #message $i ' ' $noun " of beer on the wall,\n"
+    #message $i ' ' $noun " of beer.\n"
+    #message "Take one down, pass it around,\n"
+
+    #declare $i $i - 1
+
+    #if $i == 0
+        #message "No bottles of beer on the wall.\n\n"
+    #else
+        #if $i == 1
+            #declare $noun 'bottle'
+        #endif
+
+        #message $i ' ' $noun " of beer on the wall.\n\n"
+    #endif
+#endwhile
+
+#message "No bottles of beer on the wall,\n"
+#message "No bottles of beer.\n"
+#message "Go to the store, buy some more,\n"
+#message "99 bottles of beer on the wall.\n"

@@ -1,0 +1,5 @@
+//This example will take an input as an argument and print the Fibonacci
+//Sequence of it to the console.
+#declare $p $input
+#include __DIR__ '/fibonacci.jh'
+#message $r

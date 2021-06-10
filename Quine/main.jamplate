@@ -1,0 +1,2 @@
+#declare input '#message "#declare input " "\'" input "\'" "\n" input'
+#message "#declare input " "\'" input "\'" "\n" input
