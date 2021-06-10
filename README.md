@@ -1,7 +1,8 @@
 # Jamplate Example Programs
 
 This repository contains example jamplate programs
-implementing various challenges.
+implementing various challenges. The challenges are
+inspired from the [Esolangs Website](https://esolangs.org/wiki/Popular_problem)
 
 <br>
 
